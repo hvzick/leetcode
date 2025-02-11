@@ -1,0 +1,7 @@
+0000_test.py
+
+.vscode
+
+git config --global credential.helper cache
+git config --global user.name "solitaeryheart"
+git config --global user.email "faik15748@gmail.com"
