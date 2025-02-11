@@ -2,4 +2,4 @@
 # File name follows this pattern
 # 0001 numbering 
 # E, M, H for difficulty
-# followed by name
+# followed by name of the problem
