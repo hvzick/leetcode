@@ -7,7 +7,7 @@ class Solution:
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        result = ''.join([char.lower() for char in s if char.isalnum()])
+        result = ''.join([char.lower() for char in s if char.isalnum()])    # converts to list and removes punctuation
         print(result)
         j = len(result)-1
         x = True
