@@ -9,7 +9,7 @@ class Solution:
             return nums3[len(nums3)//2]         # return middle element
         else:                                   # when length of the merged list is even
             n2 = len(nums3) // 2                # find the second middle index 
-            n1 = (len(nums3) // 2)-1            # find the first middle index
+            n1 = (len(nums3) // 2) - 1            # find the first middle index
             return (nums3[n1] + nums3[n2]) / 2  # return mean of two middle numbers
 
 mySol = Solution()
