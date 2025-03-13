@@ -3,3 +3,4 @@
 # 0001 numbering 
 # E, M, H for difficulty
 # followed by name of the problem
+# .tldr files are for viualisation of the problems
