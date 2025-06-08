@@ -75,14 +75,3 @@ myLL.print_linked_list()
 myLL.reverse()
 myLL.print_linked_list()
 
-
-
-
-
-
-
-# 2 26
-# 280
-# 4213630015305823
-# git restore --staged .gitignore 
-
