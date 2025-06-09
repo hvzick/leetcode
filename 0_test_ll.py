@@ -74,4 +74,3 @@ myLL.insertAfter(1, 11)
 myLL.print_linked_list()
 myLL.reverse()
 myLL.print_linked_list()
-
