@@ -8,23 +8,22 @@ Notice that you may not slant the container.'''
 
 class Solution:
     def maxArea(self, height: list[int]) -> int:
-        n = len(height)
-        l = 0
-        r = n-1
-        c = []
-        while l < r:                            # loop runs while left pointer is less than the right pointer
-            if height[l] < height[r]:           # check if height of left is less than height of right
-                area = (r-l) * height[l]        # calculate area
-                l += 1                          # increment left
-            elif height[l] == height[r]:        # check if height is equal
-                area = (r-l) * height[l]        # calculate area
-                l += 1                          # increment left
-                r -= 1                          # decrement right
-            else:                               # check if height of left is greater than height of right
-                area = (r-l) * height[r]        # calculate area
-                r -= 1                          # decrement right
-            c.append(area)                      # append heights to the list in every iteration
-        return max(c)
+        n = len(height)                              # get the number of lines
+        l = 0                                        # initialize left pointer
+        r = n - 1                                    # initialize right pointer
+        area = 0                                     # variable to store max area
+        while l < r:                                 # loop runs while left pointer is less than the right pointer
+            if height[l] < height[r]:                # check if height of left is less than height of right
+                area = max(area, (r-l) * height[l])  # calculate area using left height
+                l += 1                               # increment left pointer
+            elif height[l] == height[r]:             # check if height is equal
+                area = max(area, (r-l) * height[l])  # calculate area using either height
+                r -= 1                               # decrement right pointer
+                l += 1                               # increment left pointer
+            else:                                    # height of left is greater than height of right
+                area = max(area, (r-l) * height[r])  # calculate area using right height
+                r -= 1                               # decrement right pointer
+        return area                                  # return the maximum area found
 
 mySol = Solution()
 height = [1,8,6,2,5,4,8,3,7]
