@@ -9,18 +9,28 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n = len(nums)
-        for i in range(0, n-1):
-            for j in range(i+1, n):         # use simple bubble sort to sort the list
-                if nums[i] > nums[j]:
-                    temp = nums[i]
-                    nums[i] = nums[j]
-                    nums[j] = temp
-        return nums
+        n = len(nums)                       # get array size
+        left = 0                            # boundary for next 0 placement
+        mid = 0                             # current index being processed
+        right = n - 1                       # boundary for next 2 placement
+        while mid <= right:                 # process until unknown region is exhausted
+            if nums[mid] == 0:              # move 0 to the left region
+                temp = nums[mid]            # store current value
+                nums[mid] = nums[left]      # bring left-region value to mid
+                nums[left] = temp           # place 0 into left region
+                left += 1                   # expand left (0s) region
+                mid += 1                    # advance since swapped-in value is handled
+            elif nums[mid] == 1:            # 1 is already in correct middle region
+                mid += 1                    # just move forward
+            elif nums[mid] == 2:            # move 2 to the right region
+                temp = nums[mid]            # store current value
+                nums[mid] = nums[right]     # bring right-region value to mid
+                nums[right] = temp          # place 2 into right region
+                right -= 1                  # shrink right (2s) region
 
 
 
 
-mySol = Solution()
-nums = [2,0,2,1,1,0]
-print(mySol.sortColors(nums))
+mySol = Solution()                          # create solution object
+nums = [2,0,2,1,1,0]                        # sample input
+print(mySol.sortColors(nums))               # function returns None (array is modified in-place)
