@@ -2,15 +2,15 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 09 Apr 2026_
+_Last updated: 21 Apr 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 155
+- **Total Problems Solved:** 156
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 123
+  - 🟢 Easy: 124
   - 🟡 Medium: 31
   - 🔴 Hard: 1
 
@@ -132,6 +132,7 @@ _Last updated: 09 Apr 2026_
 | 2006 | Count Number of Pairs With Absolute Difference K                | 🟢 Easy    | 21 Feb 2025 | [View](./2006E%20Count%20Number%20of%20Pairs%20With%20Absolute%20Difference%20K.py)                    |
 | 2011 | Final Value of Variable After Performing Operations             | 🟢 Easy    | 08 Jan 2025 | [View](./2011E%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.py)                   |
 | 2022 | Convert 1D Array Into 2D Array                                  | 🟢 Easy    | 07 Jan 2025 | [View](./2022E%20Convert%201D%20Array%20Into%202D%20Array.py)                                          |
+| 2078 | Two Furthest Houses With Different Colors                       | 🟢 Easy    | 21 Apr 2026 | [View](./2078E%20Two%20Furthest%20Houses%20With%20Different%20Colors.py)                                |
 | 2089 | Find Target Indices After Sorting Array                         | 🟢 Easy    | 04 Jan 2025 | [View](./2089E%20Find%20Target%20Indices%20After%20Sorting%20Array.py)                                 |
 | 2149 | Rearrange Array Elements by Sign                                | 🟡 Medium  | 06 Apr 2026 | [View](./2149M%20Rearrange%20Array%20Elements%20by%20Sign.py)                                          |
 | 2161 | Partition Array According to Given Pivot                        | 🟡 Medium  | 09 Jan 2025 | [View](./2161M%20Partition%20Array%20According%20to%20Given%20Pivot.py)                                |
