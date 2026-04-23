@@ -2,16 +2,16 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 21 Apr 2026_
+_Last updated: 23 Apr 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 156
+- **Total Problems Solved:** 160
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 124
-  - 🟡 Medium: 31
+  - 🟢 Easy: 125
+  - 🟡 Medium: 34
   - 🔴 Hard: 1
 
 ---
@@ -61,6 +61,7 @@ _Last updated: 21 Apr 2026_
 | 191  | Number of 1 Bits                                                | 🟢 Easy    | 23 Dec 2024 | [View](./0191E%20Number%20of%201%20Bits.py)                                                            |
 | 198  | House Robber                                                    | 🟡 Medium  | 08 Aug 2025 | [View](./0198M%20House%20Robber.py)                                                                    |
 | 202  | Happy Number                                                    | 🟢 Easy    | 04 Jan 2025 | [View](./0202E%20Happy%20Number.py)                                                                    |
+| 204  | Count Primes                                                    | 🟡 Medium  | 23 Apr 2026 | [View](./0204M%20Count%20Primes.py)                                                                    |
 | 206  | Reverse Linked List                                             | 🟢 Easy    | 08 Jun 2025 | [View](./0206E%20Reverse%20Linked%20List.py)                                                           |
 | 219  | Contains Duplicate II                                           | 🟢 Easy    | 16 Mar 2025 | [View](./0219E%20Contains%20Duplicate%20II.py)                                                         |
 | 225  | Implement Stack using Queues                                    | 🟢 Easy    | 23 Dec 2024 | [View](./0225E%20Implement%20Stack%20using%20Queues.py)                                                |
@@ -78,6 +79,7 @@ _Last updated: 21 Apr 2026_
 | 463  | Island Perimeter                                                | 🟢 Easy    | 02 Jan 2025 | [View](./0463E%20Island%20Perimeter.py)                                                                |
 | 485  | Max Consecutive Ones                                            | 🟢 Easy    | 08 Jan 2025 | [View](./0485E%20Max%20Consecutive%20Ones.py)                                                          |
 | 500  | Keyboard Row                                                    | 🟢 Easy    | 24 Dec 2024 | [View](./0500E%20Keyboard%20Row.py)                                                                    |
+| 540  | Single Element in a Sorted Array                                | 🟡 Medium  | 23 Apr 2026 | [View](./0540M%20Single%20Element%20in%20a%20Sorted%20Array.py)                                        |
 | 566  | Reshape the Matrix                                              | 🟢 Easy    | 07 Jan 2025 | [View](./0566E%20Reshape%20the%20Matrix.py)                                                            |
 | 605  | Can Place Flowers                                               | 🟢 Easy    | 02 Jan 2025 | [View](./0605E%20Can%20Place%20Flowers.py)                                                             |
 | 704  | Binary Search                                                   | 🟢 Easy    | 24 Dec 2024 | [View](./0704E%20Binary%20Search.py)                                                                   |
@@ -89,6 +91,7 @@ _Last updated: 21 Apr 2026_
 | 804  | Unique Morse Code Words                                         | 🟢 Easy    | 21 Feb 2025 | [View](./0804E%20Unique%20Morse%20Code%20Words.py)                                                     |
 | 819  | Most Common Word                                                | 🟢 Easy    | 01 Jan 2025 | [View](./0819E%20Most%20Common%20Word.py)                                                              |
 | 832  | Flipping an Image                                               | 🟢 Easy    | 06 Jan 2025 | [View](./0832E%20Flipping%20an%20Image.py)                                                             |
+| 852  | Peak Index in a Mountain Array                                  | 🟡 Medium  | 23 Apr 2026 | [View](./0852M%20Peak%20Index%20in%20a%20Mountain%20Array.py)                                          |
 | 867  | Transpose Matrix                                                | 🟢 Easy    | 03 Jan 2025 | [View](./0867E%20Transpose%20Matrix.py)                                                                |
 | 876  | Middle of the Linked List                                       | 🟢 Easy    | 09 Jun 2025 | [View](./0876E%20Middle%20of%20the%20Linked%20List.py)                                                 |
 | 914  | X of a Kind in a Deck of Cards                                  | 🟢 Easy    | 22 Feb 2025 | [View](./0914E%20X%20of%20a%20Kind%20in%20a%20Deck%20of%20Cards.py)                                    |
