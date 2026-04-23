@@ -8,9 +8,9 @@ _Last updated: 23 Apr 2026_
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 159
+- **Total Problems Solved:** 160
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 124
+  - 🟢 Easy: 125
   - 🟡 Medium: 34
   - 🔴 Hard: 1
 
