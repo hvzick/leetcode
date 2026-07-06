@@ -8,10 +8,10 @@ _Last updated: 06 Jul 2026_
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 161
+- **Total Problems Solved:** 165
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 126
-  - 🟡 Medium: 34
+  - 🟢 Easy: 129
+  - 🟡 Medium: 35
   - 🔴 Hard: 1
 
 ---
@@ -49,8 +49,10 @@ _Last updated: 06 Jul 2026_
 | 70   | Climbing Stairs                                                 | 🟢 Easy    | 08 Aug 2025 | [View](./0070E%20Climbing%20Stairs.py)                                                                 |
 | 74   | Search a 2D Matrix                                              | 🟡 Medium  | 15 Aug 2025 | [View](./0074M%20Search%20a%202D%20Matrix.py)                                                          |
 | 75   | Sort Colors                                                     | 🟡 Medium  | 10 Jan 2025 | [View](./0075M%20Sort%20Colors.py)                                                                     |
+| 83   | Remove Duplicates from Sorted List                              | 🟢 Easy    | 17 May 2026 | [View](./0083E%20Remove%20Duplicates%20from%20Sorted%20List.py)                                        |
 | 88   | Merge Sorted Array                                              | 🟢 Easy    | 04 Jan 2025 | [View](./0088E%20Merge%20Sorted%20Array.py)                                                            |
 | 94   | Binary Tree Inorder Traversal                                   | 🟢 Easy    | 06 Jul 2026 | [View](./0094E%20Binary%20Tree%20Inorder%20Traversal.py)                                               |
+| 100  | Same Tree                                                       | 🟢 Easy    | 06 Jul 2026 | [View](./0100E%20Same%20Tree.py)                                                                       |
 | 121  | Best Time to Buy and Sell Stock                                 | 🟢 Easy    | 13 Jan 2025 | [View](./0121E%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)                                       |
 | 125  | Valid Palindrome                                                | 🟢 Easy    | 24 Dec 2024 | [View](./0125E%20Valid%20Palindrome.py)                                                                |
 | 136  | Single Number                                                   | 🟢 Easy    | 24 Dec 2024 | [View](./0136E%20Single%20Number.py)                                                                   |
@@ -60,13 +62,14 @@ _Last updated: 06 Jul 2026_
 | 167  | Two Sum II - Input Array Is Sorted                              | 🟡 Medium  | 13 Jan 2025 | [View](./0167M%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.py)                                  |
 | 169  | Majority Element                                                | 🟢 Easy    | 13 Mar 2025 | [View](./0169E%20Majority%20Element.py)                                                                |
 | 191  | Number of 1 Bits                                                | 🟢 Easy    | 23 Dec 2024 | [View](./0191E%20Number%20of%201%20Bits.py)                                                            |
-| 198  | House Robber                                                    | 🟡 Medium  | 08 Aug 2025 | [View](./0198M%20House%20Robber.py)                                                                    |
+| 198  | House Robber                                                    | 🟡 Medium  | 08 Aug 2025 | [View](./00198M%20House%20Robber.py)                                                                   |
 | 202  | Happy Number                                                    | 🟢 Easy    | 04 Jan 2025 | [View](./0202E%20Happy%20Number.py)                                                                    |
 | 204  | Count Primes                                                    | 🟡 Medium  | 23 Apr 2026 | [View](./0204M%20Count%20Primes.py)                                                                    |
 | 206  | Reverse Linked List                                             | 🟢 Easy    | 08 Jun 2025 | [View](./0206E%20Reverse%20Linked%20List.py)                                                           |
 | 219  | Contains Duplicate II                                           | 🟢 Easy    | 16 Mar 2025 | [View](./0219E%20Contains%20Duplicate%20II.py)                                                         |
 | 225  | Implement Stack using Queues                                    | 🟢 Easy    | 23 Dec 2024 | [View](./0225E%20Implement%20Stack%20using%20Queues.py)                                                |
 | 238  | Product of Array Except Self                                    | 🟡 Medium  | 18 Mar 2025 | [View](./0238M%20Product%20of%20Array%20Except%20Self.py)                                              |
+| 242  | Valid Anagram                                                   | 🟢 Easy    | 23 Apr 2026 | [View](./0242E%20Valid%20Anagram.py)                                                                   |
 | 268  | Missing Number                                                  | 🟢 Easy    | 13 Mar 2025 | [View](./0268E%20Missing%20Number.py)                                                                  |
 | 292  | Nim Game                                                        | 🟢 Easy    | 14 Jan 2025 | [View](./0292E%20Nim%20Game.py)                                                                        |
 | 347  | Top K Frequent Elements                                         | 🟢 Easy    | 02 Jan 2025 | [View](./0347E%20Top%20K%20Frequent%20Elements.py)                                                     |
