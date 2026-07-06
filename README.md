@@ -2,15 +2,15 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 23 Apr 2026_
+_Last updated: 06 Jul 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 160
+- **Total Problems Solved:** 161
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 125
+  - 🟢 Easy: 126
   - 🟡 Medium: 34
   - 🔴 Hard: 1
 
@@ -50,6 +50,7 @@ _Last updated: 23 Apr 2026_
 | 74   | Search a 2D Matrix                                              | 🟡 Medium  | 15 Aug 2025 | [View](./0074M%20Search%20a%202D%20Matrix.py)                                                          |
 | 75   | Sort Colors                                                     | 🟡 Medium  | 10 Jan 2025 | [View](./0075M%20Sort%20Colors.py)                                                                     |
 | 88   | Merge Sorted Array                                              | 🟢 Easy    | 04 Jan 2025 | [View](./0088E%20Merge%20Sorted%20Array.py)                                                            |
+| 94   | Binary Tree Inorder Traversal                                   | 🟢 Easy    | 06 Jul 2026 | [View](./0094E%20Binary%20Tree%20Inorder%20Traversal.py)                                               |
 | 121  | Best Time to Buy and Sell Stock                                 | 🟢 Easy    | 13 Jan 2025 | [View](./0121E%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)                                       |
 | 125  | Valid Palindrome                                                | 🟢 Easy    | 24 Dec 2024 | [View](./0125E%20Valid%20Palindrome.py)                                                                |
 | 136  | Single Number                                                   | 🟢 Easy    | 24 Dec 2024 | [View](./0136E%20Single%20Number.py)                                                                   |
