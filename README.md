@@ -8,9 +8,9 @@ _Last updated: 06 Jul 2026_
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 165
+- **Total Problems Solved:** 166
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 129
+  - 🟢 Easy: 130
   - 🟡 Medium: 35
   - 🔴 Hard: 1
 
@@ -53,6 +53,8 @@ _Last updated: 06 Jul 2026_
 | 88   | Merge Sorted Array                                              | 🟢 Easy    | 04 Jan 2025 | [View](./0088E%20Merge%20Sorted%20Array.py)                                                            |
 | 94   | Binary Tree Inorder Traversal                                   | 🟢 Easy    | 06 Jul 2026 | [View](./0094E%20Binary%20Tree%20Inorder%20Traversal.py)                                               |
 | 100  | Same Tree                                                       | 🟢 Easy    | 06 Jul 2026 | [View](./0100E%20Same%20Tree.py)                                                                       |
+| 101  | Symmetric Tree                                                  | 🟢 Easy    | 06 Jul 2026 | [View](./0101E%20Symmetric%20Tree.py)                                                                  |
+| 104  | Maximum Depth of Binary Tree                                    | 🟢 Easy    | 06 Jul 2026 | [View](./0104E%20Maximum%20Depth%20of%20Binary%20Tree.py)                                              |
 | 121  | Best Time to Buy and Sell Stock                                 | 🟢 Easy    | 13 Jan 2025 | [View](./0121E%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)                                       |
 | 125  | Valid Palindrome                                                | 🟢 Easy    | 24 Dec 2024 | [View](./0125E%20Valid%20Palindrome.py)                                                                |
 | 136  | Single Number                                                   | 🟢 Easy    | 24 Dec 2024 | [View](./0136E%20Single%20Number.py)                                                                   |
