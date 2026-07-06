@@ -36,9 +36,9 @@ def build_tree(values):
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if root is None:
-            return 0  # base case: empty tree has depth 0
-        l = self.maxDepth(root.left)  # recurse left
-        r = self.maxDepth(root.right)  # recurse right
+            return 0                    # base case: empty tree has depth 0
+        l = self.maxDepth(root.left)    # recurse left
+        r = self.maxDepth(root.right)   # recurse right
 
         return max(l, r) + 1  # max of both + 1 for current node
 
