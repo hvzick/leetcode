@@ -16,6 +16,7 @@ Write a solution to find the nth highest distinct salary from the Employee table
 
 import pandas as pd
 
+
 def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
     employee = employee.sort_values(ascending=False, by='salary').drop_duplicates(subset='salary', keep='first')
     print(employee)
