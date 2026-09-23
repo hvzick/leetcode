@@ -1,8 +1,11 @@
 import os
 import re
 from bisect import bisect_left
-from datetime import datetime
 from collections import defaultdict
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import quote
+
 import matplotlib.pyplot as plt
 
 try:
@@ -15,7 +18,7 @@ def get_file_creation_date(filename):
     try:
         # Local filesystem creation time.
         created_ts = os.path.getctime(filename)
-        return datetime.fromtimestamp(created_ts)
+        return datetime.fromtimestamp(created_ts, tz=timezone.utc).astimezone()
     except Exception:
         return None
 
@@ -25,14 +28,82 @@ def is_problem_file(filename):
     return re.match(r"^\d+[EMH] .+\.py$", filename) is not None
 
 
+def update_readme(files, root):
+    difficulty_labels = {
+        "E": "🟢 Easy",
+        "M": "🟡 Medium",
+        "H": "🔴 Hard",
+    }
+    problems = []
+
+    for filename in files:
+        match = re.match(r"^(\d+)([EMH]) (.+)\.py$", filename)
+        if match is None:
+            continue
+
+        problem_number, difficulty, problem_name = match.groups()
+        created_date = get_file_creation_date(root / filename)
+        solved_on = created_date.strftime("%d %b %Y") if created_date else "Unknown"
+        problems.append(
+            {
+                "number": int(problem_number),
+                "name": problem_name,
+                "difficulty": difficulty_labels[difficulty],
+                "solved_on": solved_on,
+                "filename": filename,
+            }
+        )
+
+    problems.sort(key=lambda problem: problem["number"])
+    counts = defaultdict(int)
+    for problem in problems:
+        counts[problem["difficulty"]] += 1
+
+    table = [
+        "| #    | Problem Name                                                    | Difficulty | Solved on   | Solution                                                                                               |",
+        "| ---- | --------------------------------------------------------------- | ---------- | ----------- | ------------------------------------------------------------------------------------------------------ |",
+    ]
+    for problem in problems:
+        solution = f"[View](./{quote(problem['filename'])})"
+        table.append(
+            f"| {problem['number']:<4} | {problem['name']:<63} | "
+            f"{problem['difficulty']:<10} | {problem['solved_on']:<11} | "
+            f"{solution:<100} |"
+        )
+
+    readme_path = root / "README.md"
+    readme = readme_path.read_text(encoding="utf-8")
+    readme = re.sub(
+        r"_Last updated: .*?_",
+        f"_Last updated: {datetime.now(timezone.utc).astimezone():%d %b %Y}_",
+        readme,
+        count=1,
+    )
+    readme = re.sub(r"- \*\*Total Problems Solved:\*\* \d+", f"- **Total Problems Solved:** {len(problems)}", readme, count=1)
+    readme = re.sub(r"  - 🟢 Easy: \d+", f"  - 🟢 Easy: {counts['🟢 Easy']}", readme, count=1)
+    readme = re.sub(r"  - 🟡 Medium: \d+", f"  - 🟡 Medium: {counts['🟡 Medium']}", readme, count=1)
+    readme = re.sub(r"  - 🔴 Hard: \d+", f"  - 🔴 Hard: {counts['🔴 Hard']}", readme, count=1)
+    readme = re.sub(
+        r"(?<=## 📝 Problems Table\n\n).*?(?=\n---\n\n## 🧩 Approach Patterns)",
+        "\n".join(table) + "\n",
+        readme,
+        count=1,
+        flags=re.DOTALL,
+    )
+    readme_path.write_text(readme, encoding="utf-8")
+    print(f"Updated README.md with {len(problems)} problems")
+
+
 def main():
-    files = [f for f in os.listdir(".") if f.endswith(".py") and is_problem_file(f)]
+    root = Path(__file__).resolve().parent
+    files = [f for f in os.listdir(root) if f.endswith(".py") and is_problem_file(f)]
+    update_readme(files, root)
 
     # {year: {iso_week: count}}
     data = defaultdict(lambda: defaultdict(int))
 
     for file in files:
-        date = get_file_creation_date(file)
+        date = get_file_creation_date(root / file)
         if date and date.year > 2023:
             year = date.year
             week_key = date.isocalendar().week
@@ -48,7 +119,7 @@ def main():
 
     x_vals = list(range(len(all_weeks)))
 
-    current_week = datetime.now().isocalendar().week
+    current_week = datetime.now(timezone.utc).astimezone().isocalendar().week
 
     scatter_handles = []
     yearly_series = {}
@@ -195,7 +266,7 @@ def main():
 
     plt.tight_layout()
 
-    plt.savefig("weekly_activity.png", dpi=300, bbox_inches="tight")
+    plt.savefig(root / "weekly_activity.png", dpi=300, bbox_inches="tight")
     print("Saved as weekly_activity.png")
 
 
