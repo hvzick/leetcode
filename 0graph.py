@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 try:
     import mplcursors
-except Exception:
+except Exception:  # noqa: BLE001
     mplcursors = None
 
 
@@ -19,7 +19,7 @@ def get_file_creation_date(filename):
         # Local filesystem creation time.
         created_ts = os.path.getctime(filename)
         return datetime.fromtimestamp(created_ts, tz=timezone.utc).astimezone()
-    except Exception:
+    except Exception:  # noqa: BLE001
         return None
 
 
@@ -112,7 +112,7 @@ def main():
     plt.figure(figsize=(12, 5))
 
     # Keep only weeks where at least one file was created (globally).
-    all_weeks = sorted({week for year_data in data.values() for week in year_data.keys()})
+    all_weeks = sorted({week for year_data in data.values() for week in year_data.keys()})  # noqa: SIM118
     if not all_weeks:
         print("No file creation data found after 2023")
         return

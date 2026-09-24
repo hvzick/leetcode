@@ -2,16 +2,16 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 23 Sep 2026_
+_Last updated: 24 Sep 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 179
+- **Total Problems Solved:** 182
 - **Difficulty Breakdown:**
   - 🟢 Easy: 140
-  - 🟡 Medium: 38
+  - 🟡 Medium: 41
   - 🔴 Hard: 1
 
 ---
@@ -65,6 +65,8 @@ _Last updated: 23 Sep 2026_
 | 169  | Majority Element                                                | 🟢 Easy     | 13 Mar 2025 | [View](./0169E%20Majority%20Element.py)                                                              |
 | 176  | Second Highest Salary                                           | 🟡 Medium   | 23 Sep 2026 | [View](./0176M%20Second%20Highest%20Salary.py)                                                       |
 | 177  | Nth Highest Salary                                              | 🟡 Medium   | 23 Sep 2026 | [View](./0177M%20Nth%20Highest%20Salary.py)                                                          |
+| 178  | Rank Scores                                                     | 🟡 Medium   | 24 Sep 2026 | [View](./0178M%20Rank%20Scores.py)                                                                   |
+| 180  | Consecutive Numbers                                             | 🟡 Medium   | 24 Sep 2026 | [View](./0180M%20Consecutive%20Numbers.py)                                                           |
 | 182  | Duplicate Emails                                                | 🟢 Easy     | 22 Sep 2026 | [View](./0182E%20Duplicate%20Emails.py)                                                              |
 | 183  | Customers Who Never Order                                       | 🟢 Easy     | 22 Sep 2026 | [View](./0183E%20Customers%20Who%20Never%20Order.py)                                                 |
 | 184  | Department Highest Salary                                       | 🟡 Medium   | 23 Sep 2026 | [View](./0184M%20Department%20Highest%20Salary.py)                                                   |
@@ -95,6 +97,7 @@ _Last updated: 23 Sep 2026_
 | 511  | Game Play Analysis I                                            | 🟢 Easy     | 22 Sep 2026 | [View](./0511E%20Game%20Play%20Analysis%20I.py)                                                      |
 | 540  | Single Element in a Sorted Array                                | 🟡 Medium   | 23 Apr 2026 | [View](./0540M%20Single%20Element%20in%20a%20Sorted%20Array.py)                                      |
 | 566  | Reshape the Matrix                                              | 🟢 Easy     | 07 Jan 2025 | [View](./0566E%20Reshape%20the%20Matrix.py)                                                          |
+| 570  | Managers with at Least 5 Direct Reports                         | 🟡 Medium   | 24 Sep 2026 | [View](./0570M%20Managers%20with%20at%20Least%205%20Direct%20Reports.py)                             |
 | 577  | Employee Bonus                                                  | 🟢 Easy     | 22 Sep 2026 | [View](./0577E%20Employee%20Bonus.py)                                                                |
 | 584  | Find Customer Referee                                           | 🟢 Easy     | 23 Sep 2026 | [View](./0584E%20Find%20Customer%20Referee.py)                                                       |
 | 586  | Customer Placing the Largest Number of Orders                   | 🟢 Easy     | 22 Sep 2026 | [View](./0586E%20Customer%20Placing%20the%20Largest%20Number%20of%20Orders.py)                       |
