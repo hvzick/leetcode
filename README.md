@@ -2,17 +2,17 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 25 Sep 2026_
+_Last updated: 26 Sep 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 184
+- **Total Problems Solved:** 185
 - **Difficulty Breakdown:**
   - 🟢 Easy: 141
   - 🟡 Medium: 41
-  - 🔴 Hard: 2
+  - 🔴 Hard: 3
 
 ---
 
@@ -83,6 +83,7 @@ _Last updated: 25 Sep 2026_
 | 225  | Implement Stack using Queues                                    | 🟢 Easy     | 23 Dec 2024 | [View](./0225E%20Implement%20Stack%20using%20Queues.py)                                              |
 | 238  | Product of Array Except Self                                    | 🟡 Medium   | 18 Mar 2025 | [View](./0238M%20Product%20of%20Array%20Except%20Self.py)                                            |
 | 242  | Valid Anagram                                                   | 🟢 Easy     | 23 Apr 2026 | [View](./0242E%20Valid%20Anagram.py)                                                                 |
+| 262  | Trips and Users                                                 | 🔴 Hard     | 25 Sep 2026 | [View](./0262H%20Trips%20and%20Users.py)                                                             |
 | 268  | Missing Number                                                  | 🟢 Easy     | 13 Mar 2025 | [View](./0268E%20Missing%20Number.py)                                                                |
 | 292  | Nim Game                                                        | 🟢 Easy     | 14 Jan 2025 | [View](./0292E%20Nim%20Game.py)                                                                      |
 | 347  | Top K Frequent Elements                                         | 🟢 Easy     | 02 Jan 2025 | [View](./0347E%20Top%20K%20Frequent%20Elements.py)                                                   |
