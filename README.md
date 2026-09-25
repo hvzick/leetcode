@@ -2,15 +2,15 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 24 Sep 2026_
+_Last updated: 25 Sep 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 182
+- **Total Problems Solved:** 183
 - **Difficulty Breakdown:**
-  - 🟢 Easy: 140
+  - 🟢 Easy: 141
   - 🟡 Medium: 41
   - 🔴 Hard: 1
 
@@ -63,6 +63,7 @@ _Last updated: 24 Sep 2026_
 | 155  | Min Stack                                                       | 🟡 Medium   | 15 Mar 2025 | [View](./0155M%20Min%20Stack.py)                                                                     |
 | 167  | Two Sum II - Input Array Is Sorted                              | 🟡 Medium   | 13 Jan 2025 | [View](./0167M%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.py)                                |
 | 169  | Majority Element                                                | 🟢 Easy     | 13 Mar 2025 | [View](./0169E%20Majority%20Element.py)                                                              |
+| 175  | Combine Two Tables                                              | 🟢 Easy     | 25 Sep 2026 | [View](./0175E%20Combine%20Two%20Tables.py)                                                          |
 | 176  | Second Highest Salary                                           | 🟡 Medium   | 23 Sep 2026 | [View](./0176M%20Second%20Highest%20Salary.py)                                                       |
 | 177  | Nth Highest Salary                                              | 🟡 Medium   | 23 Sep 2026 | [View](./0177M%20Nth%20Highest%20Salary.py)                                                          |
 | 178  | Rank Scores                                                     | 🟡 Medium   | 24 Sep 2026 | [View](./0178M%20Rank%20Scores.py)                                                                   |
