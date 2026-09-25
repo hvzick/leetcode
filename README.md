@@ -8,11 +8,11 @@ _Last updated: 25 Sep 2026_
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 183
+- **Total Problems Solved:** 184
 - **Difficulty Breakdown:**
   - 🟢 Easy: 141
   - 🟡 Medium: 41
-  - 🔴 Hard: 1
+  - 🔴 Hard: 2
 
 ---
 
@@ -71,6 +71,7 @@ _Last updated: 25 Sep 2026_
 | 182  | Duplicate Emails                                                | 🟢 Easy     | 22 Sep 2026 | [View](./0182E%20Duplicate%20Emails.py)                                                              |
 | 183  | Customers Who Never Order                                       | 🟢 Easy     | 22 Sep 2026 | [View](./0183E%20Customers%20Who%20Never%20Order.py)                                                 |
 | 184  | Department Highest Salary                                       | 🟡 Medium   | 23 Sep 2026 | [View](./0184M%20Department%20Highest%20Salary.py)                                                   |
+| 185  | Department Top Three Salaries                                   | 🔴 Hard     | 25 Sep 2026 | [View](./0185H%20Department%20Top%20Three%20Salaries.py)                                             |
 | 191  | Number of 1 Bits                                                | 🟢 Easy     | 23 Dec 2024 | [View](./0191E%20Number%20of%201%20Bits.py)                                                          |
 | 196  | Delete Duplicate Emails                                         | 🟢 Easy     | 22 Sep 2026 | [View](./0196E%20Delete%20Duplicate%20Emails.py)                                                     |
 | 198  | House Robber                                                    | 🟡 Medium   | 08 Aug 2025 | [View](./00198M%20House%20Robber.py)                                                                 |
