@@ -6,11 +6,14 @@ You can return the answer in any order.'''
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        n = len(nums)
-        for i in range(0, n):
-            for j in range(i+1, n):
-                if nums[i] + nums[j] == target:
-                    return i, j
+        hs = {}
+        for i in range(len(nums)):
+            first = nums[i]
+            second  = target - first
+            if second in hs:
+                return [i, hs[second]]
+            else:
+                hs[first] = i
 
 mySol = Solution()
 nums = [2,7,11,15]
