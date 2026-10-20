@@ -20,7 +20,6 @@ class Solution:
         res = []
         if len(nums) < 4: return res
         nums.sort()
-        print(nums)
         for i in range(len(nums)):
             if i > 0 and nums[i] == nums[i - 1]: 
                 continue
