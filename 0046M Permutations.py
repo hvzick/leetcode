@@ -4,18 +4,14 @@ class Solution:
     def permute(self, nums: list[int]) -> list[list[int]]:
         n = len(nums)
         res = []
-        def dfs(res, idx, nums):
+        def backtrack(idx):
             if idx == n:
                 return res.append(nums.copy())
             for i in range(idx, n):
-                swap(idx, i, nums)
-                dfs(res, idx + 1, nums)
-                swap(idx, i, nums)
-        def swap(a, b, nums):
-            t = nums[a]
-            nums[a] = nums[b]
-            nums[b] = t
-        dfs(res, 0, nums)
+                nums[idx], nums[i] = nums[i], nums[idx]
+                backtrack(idx + 1)
+                nums[idx], nums[i] = nums[i], nums[idx]
+        backtrack(0)
         return res
             
 mySol = Solution()
