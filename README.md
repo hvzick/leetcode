@@ -2,17 +2,17 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 26 Sep 2026_
+_Last updated: 26 Oct 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 185
+- **Total Problems Solved:** 191
 - **Difficulty Breakdown:**
   - 🟢 Easy: 141
-  - 🟡 Medium: 41
-  - 🔴 Hard: 3
+  - 🟡 Medium: 45
+  - 🔴 Hard: 5
 
 ---
 
@@ -33,6 +33,7 @@ _Last updated: 26 Sep 2026_
 | 11   | Container With Most Water                                       | 🟡 Medium   | 13 Jan 2025 | [View](./0011M%20Container%20With%20Most%20Water.py)                                                 |
 | 13   | Roman to Integer                                                | 🟢 Easy     | 16 Mar 2025 | [View](./0013E%20Roman%20to%20Integer.py)                                                            |
 | 17   | Letter Combinations of a Phone Number                           | 🟡 Medium   | 16 Mar 2025 | [View](./0017M%20Letter%20Combinations%20of%20a%20Phone%20Number.py)                                 |
+| 18   | 4Sum                                                            | 🟡 Medium   | 26 Sep 2026 | [View](./0018M%204Sum.py)                                                                            |
 | 20   | Valid Parentheses                                               | 🟢 Easy     | 29 Dec 2024 | [View](./0020E%20Valid%20Parentheses.py)                                                             |
 | 21   | Merge Two Sorted Lists                                          | 🟢 Easy     | 09 Jun 2025 | [View](./0021E%20Merge%20Two%20Sorted%20Lists.py)                                                    |
 | 22   | Generate Parentheses                                            | 🟡 Medium   | 16 Mar 2025 | [View](./0022M%20Generate%20Parentheses.py)                                                          |
@@ -40,8 +41,11 @@ _Last updated: 26 Sep 2026_
 | 27   | Remove Element                                                  | 🟢 Easy     | 24 Dec 2024 | [View](./0027E%20Remove%20Element.py)                                                                |
 | 33   | Search in Rotated Sorted Array                                  | 🟡 Medium   | 08 Aug 2025 | [View](./0033M%20Search%20in%20Rotated%20Sorted%20Array.py)                                          |
 | 35   | Search Insert Position                                          | 🟢 Easy     | 11 Feb 2025 | [View](./0035E%20Search%20Insert%20Position.py)                                                      |
+| 46   | Permutations                                                    | 🟡 Medium   | 23 Oct 2026 | [View](./0046M%20Permutations.py)                                                                    |
 | 48   | Rotate Image                                                    | 🟡 Medium   | 07 Mar 2025 | [View](./0048M%20Rotate%20Image.py)                                                                  |
 | 50   | Pow(x, n)                                                       | 🟡 Medium   | 07 Apr 2026 | [View](./0050M%20Pow%28x%2C%20n%29.py)                                                               |
+| 51   | N-Queens                                                        | 🔴 Hard     | 26 Oct 2026 | [View](./0051H%20N-Queens.py)                                                                        |
+| 52   | N-Queens II                                                     | 🔴 Hard     | 23 Oct 2026 | [View](./0052H%20N-Queens%20II.py)                                                                   |
 | 53   | Maximum Subarray                                                | 🟡 Medium   | 07 Apr 2026 | [View](./0053M%20Maximum%20Subarray.py)                                                              |
 | 58   | Length of Last Word                                             | 🟢 Easy     | 24 Dec 2024 | [View](./0058E%20Length%20of%20Last%20Word.py)                                                       |
 | 66   | Plus One                                                        | 🟢 Easy     | 02 Jan 2025 | [View](./0066E%20Plus%20One.py)                                                                      |
@@ -49,8 +53,10 @@ _Last updated: 26 Sep 2026_
 | 70   | Climbing Stairs                                                 | 🟢 Easy     | 08 Aug 2025 | [View](./0070E%20Climbing%20Stairs.py)                                                               |
 | 74   | Search a 2D Matrix                                              | 🟡 Medium   | 15 Aug 2025 | [View](./0074M%20Search%20a%202D%20Matrix.py)                                                        |
 | 75   | Sort Colors                                                     | 🟡 Medium   | 10 Jan 2025 | [View](./0075M%20Sort%20Colors.py)                                                                   |
+| 78   | Subsets                                                         | 🟡 Medium   | 22 Oct 2026 | [View](./0078M%20Subsets.py)                                                                         |
 | 83   | Remove Duplicates from Sorted List                              | 🟢 Easy     | 22 Sep 2026 | [View](./0083E%20Remove%20Duplicates%20from%20Sorted%20List.py)                                      |
 | 88   | Merge Sorted Array                                              | 🟢 Easy     | 04 Jan 2025 | [View](./0088E%20Merge%20Sorted%20Array.py)                                                          |
+| 90   | Subsets II                                                      | 🟡 Medium   | 22 Oct 2026 | [View](./0090M%20Subsets%20II.py)                                                                    |
 | 94   | Binary Tree Inorder Traversal                                   | 🟢 Easy     | 22 Sep 2026 | [View](./0094E%20Binary%20Tree%20Inorder%20Traversal.py)                                             |
 | 100  | Same Tree                                                       | 🟢 Easy     | 22 Sep 2026 | [View](./0100E%20Same%20Tree.py)                                                                     |
 | 101  | Symmetric Tree                                                  | 🟢 Easy     | 22 Sep 2026 | [View](./0101E%20Symmetric%20Tree.py)                                                                |
