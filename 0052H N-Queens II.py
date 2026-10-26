@@ -12,7 +12,7 @@ class Solution:
             nonlocal distinct
             if row == n:
                 distinct += 1
-                return distinct
+                return 
             for column in range(0, n):
                 if isSafe(board, row, column, n):
                     board[row][column] = 'Q'
