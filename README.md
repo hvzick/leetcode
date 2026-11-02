@@ -2,17 +2,17 @@
 
 Sharpening my problem-solving skills and doing this for fun.
 
-_Last updated: 26 Oct 2026_
+_Last updated: 02 Nov 2026_
 
 ---
 
 ## 📊 Stats
 
-- **Total Problems Solved:** 191
+- **Total Problems Solved:** 193
 - **Difficulty Breakdown:**
   - 🟢 Easy: 141
-  - 🟡 Medium: 45
-  - 🔴 Hard: 5
+  - 🟡 Medium: 46
+  - 🔴 Hard: 6
 
 ---
 
@@ -41,6 +41,7 @@ _Last updated: 26 Oct 2026_
 | 27   | Remove Element                                                  | 🟢 Easy     | 24 Dec 2024 | [View](./0027E%20Remove%20Element.py)                                                                |
 | 33   | Search in Rotated Sorted Array                                  | 🟡 Medium   | 08 Aug 2025 | [View](./0033M%20Search%20in%20Rotated%20Sorted%20Array.py)                                          |
 | 35   | Search Insert Position                                          | 🟢 Easy     | 11 Feb 2025 | [View](./0035E%20Search%20Insert%20Position.py)                                                      |
+| 37   | Sudoku Solver                                                   | 🔴 Hard     | 31 Oct 2026 | [View](./0037H%20Sudoku%20Solver.py)                                                                 |
 | 46   | Permutations                                                    | 🟡 Medium   | 23 Oct 2026 | [View](./0046M%20Permutations.py)                                                                    |
 | 48   | Rotate Image                                                    | 🟡 Medium   | 07 Mar 2025 | [View](./0048M%20Rotate%20Image.py)                                                                  |
 | 50   | Pow(x, n)                                                       | 🟡 Medium   | 07 Apr 2026 | [View](./0050M%20Pow%28x%2C%20n%29.py)                                                               |
@@ -190,6 +191,7 @@ _Last updated: 26 Oct 2026_
 | 2545 | Sort the Students by Their Kth Score                            | 🟡 Medium   | 19 Feb 2025 | [View](./2545M%20Sort%20the%20Students%20by%20Their%20Kth%20Score.py)                                |
 | 2559 | Count Vowel Strings in Ranges                                   | 🟢 Easy     | 03 Jan 2025 | [View](./2559E%20Count%20Vowel%20Strings%20in%20Ranges.py)                                           |
 | 2574 | Left and Right Sum Differences                                  | 🟢 Easy     | 14 Jan 2025 | [View](./2574E%20Left%20and%20Right%20Sum%20Differences.py)                                          |
+| 2596 | Check Knight Tour Configuration                                 | 🟡 Medium   | 02 Nov 2026 | [View](./2596M%20Check%20Knight%20Tour%20Configuration.py)                                           |
 | 2610 | Convert an Array Into a 2D Array With Conditions                | 🟢 Easy     | 09 Jan 2025 | [View](./2610E%20Convert%20an%20Array%20Into%20a%202D%20Array%20With%20Conditions.py)                |
 | 2614 | Prime In Diagonal                                               | 🟢 Easy     | 03 Jan 2025 | [View](./2614E%20Prime%20In%20Diagonal.py)                                                           |
 | 2643 | Row With Maximum Ones                                           | 🟢 Easy     | 07 Jan 2025 | [View](./2643E%20Row%20With%20Maximum%20Ones.py)                                                     |
